@@ -119,6 +119,7 @@ public class Feld
      *         kann die gegebene Position selbst sein oder null, wenn
      *         alle Nachbarpositionen und die Position selbst belegt sind.
      */
+    // Überprüft alle Nachbarpositionen und ob diese Verfügbar bzw frei von anderen Tieren sind.
     public Position freieNachbarposition(Position position)
     {
         Iterator<Position> nachbarn = nachbarpositionen(position);
