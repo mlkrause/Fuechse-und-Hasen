@@ -22,6 +22,7 @@ public abstract class Tier
     /**
      * Erzeuge ein Tier mit Alter Null (ein Neugeborenes).
      */
+    //erzeugt ein Tier
     public Tier(Feld feld, Position position)
     {
         alter = 0;
