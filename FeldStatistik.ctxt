@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FeldStatistik
+comment0.text=\n\ Diese\ Klasse\ sammelt\ und\ liefert\ statistische\ Daten\ \u00FCber\ den\n\ Zustand\ eines\ Feldes.\ Auf\ sehr\ flexible\ Weise\:\ Es\ wird\ ein\n\ Z\u00E4hler\ angelegt\ und\ gepflegt\ f\u00FCr\ jede\ Objektklasse,\ die\ im\n\ Feld\ gefunden\ wird.\n\ \n\ @author\ David\ J.\ Barnes\ und\ Michael\ K\u00F6lling\n\ @version\ 2006.03.30\n\ kkkk\n
+comment1.params=
+comment1.target=FeldStatistik()
+comment1.text=\n\ Erzeuge\ ein\ FeldStatistik-Objekt.\n
+comment2.params=feld
+comment2.target=java.lang.String\ gibBewohnerInfo(Feld)
+comment2.text=\n\ Liefere\ Informationen\ \u00FCber\ die\ Bewohner\ im\ Feld.\n\ @return\ Eine\ Beschreibung,\ welche\ Tiere\ das\n\ \ \ \ \ \ \ \ \ Feld\ bev\u00F6lkern.\n
+comment3.params=
+comment3.target=void\ zuruecksetzen()
+comment3.text=\n\ Verwerfe\ alle\ bisher\ gesammelten\ Daten;\ setze\ alle\ Z\u00E4hler\n\ auf\ Null\ zur\u00FCck.\n
+comment4.params=tierklasse
+comment4.target=void\ erhoeheZaehler(java.lang.Class)
+comment4.text=\n\ Erh\u00F6he\ den\ Z\u00E4hler\ f\u00FCr\ eine\ Tierklasse.\n\ @param\ tierklasse\ Klasse\ der\ Tierart,\ f\u00FCr\ die\ erh\u00F6ht\ werden\ soll.\n
+comment5.params=
+comment5.target=void\ zaehlungBeendet()
+comment5.text=\n\ Signalisiere,\ dass\ eine\ Tierz\u00E4hlung\ beendet\ ist.\n
+comment6.params=feld
+comment6.target=boolean\ istAktiv(Feld)
+comment6.text=\n\ Stelle\ fest,\ ob\ die\ Simulation\ noch\ aktiv\ ist,\ also\n\ ob\ sie\ weiterhin\ laufen\ sollte.\n\ @return\ true\ wenn\ noch\ mehr\ als\ eine\ Spezies\ lebt.\n
+comment7.params=feld
+comment7.target=void\ ermittleZaehlerstaende(Feld)
+comment7.text=\n\ Erzeuge\ Z\u00E4hler\ f\u00FCr\ die\ Anzahl\ der\ F\u00FCchse\ und\ Hasen.\n\ Diese\ werden\ nicht\ st\u00E4ndig\ aktuell\ gehalten,\ w\u00E4hrend\n\ F\u00FCchse\ und\ Hasen\ in\ das\ Feld\ gesetzt\ werden,\ sondern\n\ jeweils\ bei\ der\ Abfrage\ der\ Z\u00E4hlerst\u00E4nde\ berechnet.\n\ @param\ feld\ das\ Feld,\ f\u00FCr\ das\ die\ Statistik\ erstellt\n\ \ \ \ \ \ \ \ \ \ \ \ \ werden\ soll.\n
+numComments=8

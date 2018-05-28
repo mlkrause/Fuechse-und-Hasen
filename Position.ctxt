@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=zeile\ spalte
+comment0.target=Position(int,int)
+comment0.text=\nRepr\u00E4sentiere\ eine\ Zeile\ und\ eine\ Spalte.\n@param\ zeile\ die\ Zeile.\n@param\ spalte\ die\ Spalte.\n\n
+comment1.params=obj
+comment1.target=boolean\ equals(Object)
+comment1.text=\nPr\u00FCfung\ auf\ Datengleichheit.\n\n
+comment2.target=String\ toString()
+comment2.text=\nLiefere\ einen\ String\ in\ der\ Form\ 'Zeile,Spalte'\n@return\ eine\ Stringdarstellung\ dieser\ Position.\n\n
+comment3.target=int\ hashCode()
+comment3.text=\nBenutze\ die\ 16\ h\u00F6herwertigen\ Bits\ f\u00FCr\ den\ den\ Zeilenwert\nund\ die\ 16\ niederwertigen\ Bits\ f\u00FCr\ den\ Spaltenwert.\nAu\u00DFer\ f\u00FCr\ sehr\ gro\u00DFe\ Felder\ sollte\ dies\ einen\ eindeutigen\nHashwert\ f\u00FCr\ jedes\ Zeile-Spalte-Paar\ geben.\n@return\ einen\ Hash-Code\ f\u00FCr\ diese\ Position.\n\n
+comment4.target=int\ gibZeile()
+comment4.text=\n@return\ Die\ Zeile.\n\n
+comment5.target=int\ gibSpalte()
+comment5.text=\n@return\ Die\ Spalte.\n\n
+numComments=6

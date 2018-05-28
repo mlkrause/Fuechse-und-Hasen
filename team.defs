@@ -1,0 +1,15 @@
+#Mon May 28 07:51:58 CEST 2018
+bluej.teamsettings.groupname=
+bluej.teamsettings.subversion.server=hmbldtw.spdns.org
+bluej.teamsettings.user=krause
+bluej.teamsettings.vcs=subversion
+bluej.teamsettings.ignore8=\\.DS_Store
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.subversion.repositoryPrefix=krause
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.subversion.protocol=svn
