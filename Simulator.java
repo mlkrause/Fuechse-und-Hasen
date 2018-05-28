@@ -47,6 +47,7 @@ public class Simulator
     /**
      * Erzeuge ein Simulationsfeld mit einer Standardgröße.
      */
+    //erzeugt ein "normales" Feld: 50x50
     public Simulator()
     {
         this(STANDARD_TIEFE, STANDARD_BREITE);
